@@ -35,7 +35,7 @@ dir_name = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
 result = {}
 result.store(dir_name, total1)
-
+end
 
 row_index += 1
 end
