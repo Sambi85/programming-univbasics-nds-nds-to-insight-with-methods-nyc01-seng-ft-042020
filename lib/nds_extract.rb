@@ -31,21 +31,23 @@ row_index = 0
 while row_index < nds[row_index][:movies].length do
 
 dir_name = nds[row_index][:name]  ### good !!! ###
-total1 = gross_for_director(nds[row_index]) ### good !!! ###
+total1 = gross_for_director(nds[row_index]) ### good !!!
+
+dir_name2 = nds[row]
 
 
 row_index += 1
 end
 result = {dir_name => total1,
   dir_name => total1,
-  dir_name => total2,
-  dir_name => total3,
-  dir_name => total4,
-  dir_name => total5,
-  dir_name => total6,
-  dir_name => total7,
-  dir_name => total8,
-  dir_name => total9
+  #dir_name => total2,
+  #dir_name => total3,
+  #dir_name => total4,
+  #dir_name => total5,
+  #dir_name => total6,
+  #dir_name => total7,
+  #dir_name => total8,
+  #dir_name => total9
 } ### good !!! ###
 pp result
 end
