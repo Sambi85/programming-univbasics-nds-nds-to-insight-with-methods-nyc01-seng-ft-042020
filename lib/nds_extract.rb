@@ -56,7 +56,7 @@ total4 = gross_for_director(nds[row_index])
 result.store(dir_name4, total4)
 end
 
-if nds[row_index][:name] == 'Wachowski Brothers'
+if nds[row_index][:name] == 'Wachowski Siblings'
 dir_name5 = nds[row_index][:name] 
 total5 = gross_for_director(nds[row_index]) 
 result.store(dir_name5, total5)
