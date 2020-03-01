@@ -44,6 +44,54 @@ result = {}
 result.store(dir_name2, total2)
 end
 
+if nds[row_index][:name] == 'James Cameron'
+dir_name3 = nds[row_index][:name]  ### good !!! ###
+total3 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name3, total3)
+end
+
+if nds[row_index][:name] == 'Spike Lee'
+dir_name3 = nds[row_index][:name]  ### good !!! ###
+total3 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name3, total3)
+end
+
+if nds[row_index][:name] == 'Wachowski Brothers'
+dir_name4 = nds[row_index][:name]  ### good !!! ###
+total4 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name4, total4)
+end
+
+if nds[row_index][:name] == 'Russo Brothers'
+dir_name2 = nds[row_index][:name]  ### good !!! ###
+total2 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name2, total2)
+end
+
+if nds[row_index][:name] == 'Russo Brothers'
+dir_name2 = nds[row_index][:name]  ### good !!! ###
+total2 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name2, total2)
+end
+
+if nds[row_index][:name] == 'Russo Brothers'
+dir_name2 = nds[row_index][:name]  ### good !!! ###
+total2 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name2, total2)
+end
+
+if nds[row_index][:name] == 'Russo Brothers'
+dir_name2 = nds[row_index][:name]  ### good !!! ###
+total2 = gross_for_director(nds[row_index]) ### good !!!
+result = {}
+result.store(dir_name2, total2)
+end
 row_index += 1
 end
 result = {
