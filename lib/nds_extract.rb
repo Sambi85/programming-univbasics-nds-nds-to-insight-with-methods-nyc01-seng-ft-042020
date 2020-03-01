@@ -46,6 +46,12 @@ end
 
 row_index += 1
 end
-
+result = {
+  dir_name1 => total1,
+  dir_name => total,
+  
+  
+  
+}
 pp result
 end
