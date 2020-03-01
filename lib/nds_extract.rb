@@ -32,12 +32,12 @@ while row_index < nds.length do
 
 dir_name = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
-
+result = {}
 result.store(dir_name, total1)
 
 row_index += 1
 end
-result = {dir_name => total1,
+#result = {dir_name => total1,
   #dir_name => total2,
   #dir_name => total3,
   #dir_name => total4,
