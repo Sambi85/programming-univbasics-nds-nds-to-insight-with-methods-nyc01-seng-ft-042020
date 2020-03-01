@@ -31,7 +31,7 @@ row_index = 0
 while row_index < nds.length do
 
 if nds[row_index][:name] == 'Stephen Spielberg'
-dir_name = nds[row_index][:name]  ### good !!! ###
+dir_name1 = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
 result = {}
 result.store(dir_name1, total1)
