@@ -37,7 +37,7 @@ name_total = Hash.new(dir_name => total1)
 name_total
 #dir_name2 = nds[row]
 
-
+h
 row_index += 1
 end
 result = {dir_name => total1,
