@@ -48,10 +48,14 @@ row_index += 1
 end
 result = {
   dir_name1 => total1,
-  dir_name => total,
-  
-  
-  
+  dir_name2 => total2,
+  #dir_name3 => total3,
+  #dir_name4 => total4,
+  #dir_name5 => total5,
+  #dir_name6 => total6,
+  #dir_name7 => total7,
+  #dir_name8 => total8,
+  #dir_name9 => total9
 }
 pp result
 end
