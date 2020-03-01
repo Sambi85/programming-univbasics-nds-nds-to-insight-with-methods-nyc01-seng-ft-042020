@@ -33,7 +33,7 @@ while row_index < nds[row_index][:movies].length do
 dir_name = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
 
-dir_name2 = nds[row]
+#dir_name2 = nds[row]
 
 
 row_index += 1
