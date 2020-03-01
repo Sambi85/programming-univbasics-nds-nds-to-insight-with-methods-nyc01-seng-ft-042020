@@ -46,6 +46,6 @@ end
   #dir_name => total7,
   #dir_name => total8,
   #dir_name => total9
-} ### good !!! ###
+#} ### good !!! ###
 pp result
 end
