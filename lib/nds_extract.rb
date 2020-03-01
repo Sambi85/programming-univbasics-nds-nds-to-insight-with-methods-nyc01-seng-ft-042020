@@ -34,14 +34,14 @@ if nds[row_index][:name] == 'Stephen Spielberg'
 dir_name = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
 result = {}
-result.store(dir_name, total1)
+result.store(dir_name1, total1)
 end
 
 if nds[row_index][:name] == 'Russo Brothers'
-dir_name = nds[row_index][:name]  ### good !!! ###
-total1 = gross_for_director(nds[row_index]) ### good !!!
+dir_name2 = nds[row_index][:name]  ### good !!! ###
+total2 = gross_for_director(nds[row_index]) ### good !!!
 result = {}
-result.store(dir_name, total1)
+result.store(dir_name2, total2)
 end
 
 row_index += 1
