@@ -33,15 +33,11 @@ while row_index < nds.length do
 dir_name = nds[row_index][:name]  ### good !!! ###
 total1 = gross_for_director(nds[row_index]) ### good !!!
 
-name_total = Hash.new(dir_name => total1)
-name_total
-#dir_name2 = nds[row]
+result.store(dir_name, total1)
 
-h
 row_index += 1
 end
 result = {dir_name => total1,
-  dir_name => total1,
   #dir_name => total2,
   #dir_name => total3,
   #dir_name => total4,
